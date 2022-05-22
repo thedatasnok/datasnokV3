@@ -73,6 +73,6 @@ jobs:
         with:
           command: up
           stack-name: prod
-          work-dir: packages/infrastructure
+          work-dir: apps/infrastructure
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
