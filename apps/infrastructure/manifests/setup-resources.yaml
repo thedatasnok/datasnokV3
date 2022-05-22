@@ -32,7 +32,7 @@ subjects:
   name: datasnokv3-workflows
 roleRef:
   kind: Role
-  name: syntax-web-full-access
+  name: datasnokv3-web-full-access
   apiGroup: rbac.authorization.k8s.io
 ---
 apiVersion: v1
@@ -40,6 +40,6 @@ kind: Secret
 type: kubernetes.io/service-account-token
 metadata:
   name: datasnokv3-workflows
-  namespace: datasnokv3-web
+  namespace: datasnokv3
   annotations:
     kubernetes.io/service-account.name: datasnokv3-workflows
