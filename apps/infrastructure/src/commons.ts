@@ -6,10 +6,10 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 export const config = new pulumi.Config();
 
-export const appLabels = { app: 'datasnok' };
+export const appLabels = { app: 'datasnokv3' };
 
 export const constants = {
   API_PORT: '3100',
   POSTGRES_PORT: '5432',
-  NAMESPACE: 'datasnok'
+  NAMESPACE: 'datasnokv3'
 };
