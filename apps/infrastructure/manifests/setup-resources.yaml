@@ -32,7 +32,7 @@ subjects:
   name: datasnokv3-workflows
 roleRef:
   kind: Role
-  name: datasnokv3-web-full-access
+  name: datasnokv3-full-access
   apiGroup: rbac.authorization.k8s.io
 ---
 apiVersion: v1
