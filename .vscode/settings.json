@@ -1,0 +1,8 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": [
+      "file:///c%3A/Users/datasnok/Development/TypeScript/datasnokV3/.github/workflows/prod/deploy.yaml",
+      "file:///c%3A/Users/datasnok/Development/TypeScript/datasnokV3/.github/workflows/dev/deploy.yaml"
+    ]
+  }
+}
