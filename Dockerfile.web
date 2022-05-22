@@ -24,7 +24,7 @@ RUN yarn turbo run build --scope=web --includeDependencies --no-deps
 
 FROM nginx:alpine
 
-COPY --from=sourcer /app/dist /usr/share/nginx/html
+COPY --from=sourcer /app/apps/web/dist /usr/share/nginx/html
 COPY apps/web/config/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
