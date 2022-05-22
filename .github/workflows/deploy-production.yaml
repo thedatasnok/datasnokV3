@@ -47,7 +47,7 @@ jobs:
         uses: azure/setup-kubectl@v1
 
       - name: Set k8s context
-        uses: azure/k8s-set-context@v1
+        uses: azure/k8s-set-context@v2
         with:
           method: service-account
           k8s-url: https://kubernetes.datasnok.cool/
